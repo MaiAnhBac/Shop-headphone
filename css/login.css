@@ -251,3 +251,9 @@ body{
 .container.active .toggle-right{
     transform: translateX(200%);
 }
+#signin {
+    display: none;
+}
+#create {
+    display: none;
+}

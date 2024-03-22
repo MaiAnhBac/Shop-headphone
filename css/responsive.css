@@ -124,6 +124,7 @@
     }
 
 }
+
 @media (max-width: 480px) {
     .card .card-container {
         grid-template-columns: repeat(1, 1fr);

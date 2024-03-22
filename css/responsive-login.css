@@ -1,0 +1,25 @@
+@media (max-width: 600px) {
+    .toggle-container {
+        display: none;
+    }
+    .sign-up {
+        display: none;
+    }
+    .sign-in {
+        width: 100%;
+    }
+    .sign-up-active {
+        display: block;
+        width: 100%;
+        opacity: 1;
+    }
+    .sign-in-active {
+        display: none;
+    }
+    #signin, #create {
+        display: block;
+        padding: 10px 0;
+        font-weight: bold;
+        cursor: pointer;
+    }
+ }
