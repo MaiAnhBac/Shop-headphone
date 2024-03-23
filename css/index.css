@@ -321,6 +321,7 @@ footer .footer-content .newsletter form input {
     border: 1px solid white;
     background: black;
     color: white;
+    border-radius: 0;
 }
 footer .footer-content .newsletter form input:focus {
     outline: none;
