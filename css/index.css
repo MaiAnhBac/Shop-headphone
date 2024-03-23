@@ -316,7 +316,7 @@ footer .footer-content .newsletter form {
 }
 footer .footer-content .newsletter form input {
     padding: 15px;
-    margin: 15px 5px;
+    margin-right: 10px;
     width: 100%;
     border: 1px solid white;
     background: black;
@@ -330,7 +330,7 @@ footer .footer-content .newsletter form button {
     padding: 15px 40px;
     font-weight: 900;
     cursor: pointer;
-    border: none;
+    border: 1px solid black;
 }
 footer .footer-content .newsletter form button:hover {
     color: white;
