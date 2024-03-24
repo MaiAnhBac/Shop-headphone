@@ -66,6 +66,9 @@
     .header-top .header-top-item .navbar a:hover:after {
         width: 100%;
     }
+    .header-top .header-top-item .navbar ul .navbar-hidden:hover .navbar-menu::before {
+        display: none;
+    }
 }
 
 @media (max-width: 768px) {

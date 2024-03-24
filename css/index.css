@@ -92,10 +92,20 @@
     visibility: visible;
     opacity: 1;
 }
-
 .header-top .header-top-item .navbar ul .navbar-hidden:hover a .fa-chevron-down::before {
     content: "\f077";
     transition: all 0.2s linear;
+}
+.header-top .header-top-item .navbar ul .navbar-hidden:hover .navbar-menu::before {
+    content: "";
+    position: absolute;
+    top: -20px;
+    left: 20px;
+    border-top: 10px solid transparent;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid black;
+    background: none;
 }
 .search {
     display: flex;
