@@ -151,7 +151,7 @@
     align-items: center;
     gap: 10px;
 }
-.header-top .header-top-item .right .account, .cart, .fa-bars {
+.header-top .header-top-item .right .fa-bars {
     padding: 12px;
     cursor: pointer;
     width: 3rem;
@@ -159,19 +159,26 @@
     text-align: center;
     background: #f4f2f2;
     border-radius: 0.7rem;
-}
-.header-top .header-top-item .right #menu{
     display: none;
     line-height: 1.5rem;
 }
 .header-top .header-top-item .right .account a, .cart a {
     text-decoration: none;
     color: black;
-    margin-top: 3px;
+    padding: 12px;
+    cursor: pointer;
+    width: 3rem;
+    height: 3rem;
+    text-align: center;
+    background: #f4f2f2;
+    border-radius: 0.7rem;
+    display: flex;
+    justify-content: center;
 }
 .header-top .header-top-item .right .account i, .cart i {
     font-size: 20px;
     line-height: 1.5rem;
+    margin-top: 1px;
 }
 .fa-xmark {
     font-size: 24px;
