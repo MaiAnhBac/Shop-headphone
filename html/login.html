@@ -23,10 +23,10 @@
                     <a href="#" class="icon"><i class="fa-brands fa-linkedin-in"></i></a>
                 </div>
                 <span>or use your email for registeration</span>
-                <input type="text" placeholder="Name">
-                <input type="email" placeholder="Email">
-                <input type="password" placeholder="Password">
-                <button>Sign Up</button>
+                <input type="text" placeholder="Name" id="name" required>
+                <input type="email" placeholder="Email" id="email" required>
+                <input type="password" placeholder="Password" id="password" required>
+                <button id="btn-signup">Sign Up</button>
                 <span id="signin">Sign In</span>
             </form>
         </div>
@@ -40,10 +40,10 @@
                     <a href="#" class="icon"><i class="fa-brands fa-linkedin-in"></i></a>
                 </div>
                 <span>or use your email password</span>
-                <input type="email" placeholder="Email">
-                <input type="password" placeholder="Password">
+                <input type="email" placeholder="Email" id="login-email">
+                <input type="password" placeholder="Password" id="login-password">
                 <a href="#">Forget Your Password?</a> 
-                <button>Sign In</button>
+                <button id="sign-in">Sign In</button>
                 <span id="create">Create Account</span>
             </form>
         </div>
@@ -64,6 +64,7 @@
     </div>
 
     <script src="/js/login.js"></script>
+    <script src="/js/account.js"></script>
 </body>
 
 </html>
