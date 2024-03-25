@@ -40,10 +40,10 @@ document.addEventListener("DOMContentLoaded", () => {
             
             const user = data_res.find(user => user.email === email && user.password == password)
             if (user) {
-                console.log('Đăng nhập thành công!');
+                alert('Đăng nhập thành công!');
                 window.location.href = '/index.html'
             } else {
-                console.log('Tên đăng nhập hoặc mật khẩu không chính xác.');
+                alert('Tên đăng nhập hoặc mật khẩu không chính xác.');
             }
         } catch (error) {
             console.error('There was a problem with your fetch operation:', error);
