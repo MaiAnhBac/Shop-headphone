@@ -404,24 +404,24 @@ footer .footer-content .newsletter form button:hover {
     position: relative;
 }
 .wrapper .arrow  {
-    width: 46px;
-    height: 46px;
+    width: 36px;
+    height: 36px;
     background: #343f4f;
     text-align: center;
-    line-height: 46px;
+    line-height: 36px;
     color: #fff;
     border-radius: 50%;
     cursor: pointer;
-    font-size: 12px;
+    font-size: 10px;
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
 }
 .wrapper .arrow:first-child {
-    left: -23px;
+    left: -18px;
 }
 .wrapper .arrow:last-child{
-    right: -23px;
+    right: -18px;
 }
 .wrapper .carousel {
     white-space: nowrap;
@@ -435,6 +435,7 @@ footer .footer-content .newsletter form button:hover {
     width: calc(100% / 4 - 14px);
     margin-left: 14px;
     background: #f4f2f2;
+    border-radius: 5px;
 }
 .carousel img:first-child {
     margin-left: 0px;
@@ -447,19 +448,19 @@ footer .footer-content .newsletter form button:hover {
         padding: 0 20px;
     }
     .wrapper .arrow  {
-        width: 40px;
-        height: 40px;
-        line-height: 40px;
-    }    
+        width: 26px;
+        height: 26px;
+        line-height: 26px;
+    }
+    .wrapper .arrow:first-child {
+        left: -16px;
+    }
+    .wrapper .arrow:last-child{
+        right: -16px;
+    }
 }
 @media only screen and (max-width: 768px) {
     .carousel img {
         width: calc(100% / 2);
     }
-    .wrapper .arrow  {
-        width: 36px;
-        height: 36px;
-        line-height: 36px;
-    }
-    
 }
