@@ -399,3 +399,67 @@ footer .footer-content .newsletter form button:hover {
   #goToTopBtn:hover {
     background-color: #0056b3;
   }
+  /* slider */
+  .wrapper {
+    position: relative;
+}
+.wrapper .arrow  {
+    width: 46px;
+    height: 46px;
+    background: #343f4f;
+    text-align: center;
+    line-height: 46px;
+    color: #fff;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 12px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.wrapper .arrow:first-child {
+    left: -23px;
+}
+.wrapper .arrow:last-child{
+    right: -23px;
+}
+.wrapper .carousel {
+    white-space: nowrap;
+    overflow: hidden;;
+    cursor: pointer;
+    scroll-behavior: smooth;
+}
+.carousel img {
+    max-height: 410px;
+    object-fit: cover;
+    width: calc(100% / 4 - 14px);
+    margin-left: 14px;
+    background: #f4f2f2;
+}
+.carousel img:first-child {
+    margin-left: 0px;
+}
+@media only screen and (max-width: 1024px) {
+    .carousel img {
+        width: calc(100% / 3);
+    }
+    .card .card-slider {
+        padding: 0 20px;
+    }
+    .wrapper .arrow  {
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+    }    
+}
+@media only screen and (max-width: 768px) {
+    .carousel img {
+        width: calc(100% / 2);
+    }
+    .wrapper .arrow  {
+        width: 36px;
+        height: 36px;
+        line-height: 36px;
+    }
+    
+}

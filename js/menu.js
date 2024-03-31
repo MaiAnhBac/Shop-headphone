@@ -34,3 +34,5 @@ cus.onclick = () => {
     cus_block[5].classList.toggle('block');
     cus_block[6].classList.toggle('block');
 }
+
+
