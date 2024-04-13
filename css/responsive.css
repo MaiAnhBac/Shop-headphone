@@ -52,6 +52,12 @@
     .input-select {
         gap: 20px;
     }
+    .menu .filter .filter-1 select, .sort-by .filter-1 select {
+        appearance: none;;
+    }
+    .input-select .selection .address {
+        appearance: none;
+    }
     footer .footer-content {
         width: 100%;
         padding: 0 30px;
