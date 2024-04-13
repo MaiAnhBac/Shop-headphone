@@ -9,14 +9,111 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 30px;
-    margin: 30px 0;
+    margin: 30px 10px;
 }
 .shopping-cart .shopping-cart-left {
+    grid-column: span 2;
+    height: fit-content;
+}
+.shopping-cart .shopping-cart-left .left-top, .left-bottom {
     border: 3px solid #f4f2f2;
     border-radius: 7px;
-    grid-column: span 2;
     padding: 20px;
-    height: fit-content;
+}
+.shopping-cart .shopping-cart-left .left-mid {
+    padding: 15px 0;
+}
+.shopping-cart .shopping-cart-left .left-mid .checkbox-info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.shopping-cart .shopping-cart-left .left-mid .checkbox-info .checkbox {
+    width: 18px;
+    height: 18px;
+}
+#left-bottom {
+    display: none;
+    transition: all 0.2s linear;
+}
+.input-small {
+    position: relative;
+    padding: .75rem;
+    transition: all 200ms ease-in-out;
+    opacity: .8;
+    border: none;
+    background: #f4f2f2;
+  }
+  
+  .input-box {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5px;
+  }
+  
+  .input-label {
+    color: #858585;
+    margin-bottom: 4px;
+    margin-left: 1px;
+  }
+  
+  .input-helper {
+    color: #858585;
+    font-size: .75rem;
+    color: red;
+    margin-top: 6px;
+    margin-left: 1px;
+    visibility: hidden;
+    transform: translateY(-.5rem);
+    transition: all 100ms linear;
+    z-index: -1;
+  }
+  
+  .input-small::placeholder {
+    color: rgb(145, 145, 145);
+    font-size: .75rem;
+  }
+  
+  .input-small::after {
+    content: attr(placeholder);
+    position: absolute;
+    color: #161616;
+    top: 0;
+    left: 0;
+  }
+  
+  .input-small:focus {
+    outline: none;
+  }
+  
+  .input-small:focus + .input-helper {
+    visibility: visible;
+    transform: translateY(0rem);
+  }
+  
+  .input-small:focus::placeholder {
+    visibility: hidden;
+  }
+
+.input-select {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+    margin-bottom: 20px;
+}
+.input-select .selection {
+    display: flex;
+    flex-direction: column;
+}
+.input-select .selection .address {
+    padding: .75rem;
+    transition: all 200ms ease-in-out;
+    opacity: .8;
+    border: none;
+    background: #f4f2f2;
+}
+.input-select .selection .address:focus {
+    outline: none;
 }
 .shopping-cart .shopping-cart-left .cart-item {
     display: flex;
@@ -54,6 +151,7 @@
     border-radius: 7px;
     grid-column: span 1;
     padding: 20px;
+    height: fit-content;
 }
 .shopping-cart .shopping-cart-right .cart-title {
     padding: 0 0 20px 0;

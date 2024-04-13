@@ -53,7 +53,7 @@
                                         </div>
                                     </div>
                                 </li>
-                                <li class="navbar-hidden"> 
+                                <li class="navbar-hidden">
                                     <a href="#products">What's New</a>
                                     <div class="navbar-menu">
                                         <div class="navbar-menu-1">
@@ -86,14 +86,14 @@
                         <div class="right">
                             <div class="search">
                                 <svg viewBox="0 0 24 24" aria-hidden="true" class="icon">
-                                  <g>
-                                    <path
-                                      d="M21.53 20.47l-3.66-3.66C19.195 15.24 20 13.214 20 11c0-4.97-4.03-9-9-9s-9 4.03-9 9 4.03 9 9 9c2.215 0 4.24-.804 5.808-2.13l3.66 3.66c.147.146.34.22.53.22s.385-.073.53-.22c.295-.293.295-.767.002-1.06zM3.5 11c0-4.135 3.365-7.5 7.5-7.5s7.5 3.365 7.5 7.5-3.365 7.5-7.5 7.5-7.5-3.365-7.5-7.5z"
-                                    ></path>
-                                  </g>
+                                    <g>
+                                        <path
+                                            d="M21.53 20.47l-3.66-3.66C19.195 15.24 20 13.214 20 11c0-4.97-4.03-9-9-9s-9 4.03-9 9 4.03 9 9 9c2.215 0 4.24-.804 5.808-2.13l3.66 3.66c.147.146.34.22.53.22s.385-.073.53-.22c.295-.293.295-.767.002-1.06zM3.5 11c0-4.135 3.365-7.5 7.5-7.5s7.5 3.365 7.5 7.5-3.365 7.5-7.5 7.5-7.5-3.365-7.5-7.5z">
+                                        </path>
+                                    </g>
                                 </svg>
                                 <input class="input" type="search" placeholder="Search" />
-                            </div>        
+                            </div>
                             <div class="fa-solid fa-bars" id="menu"></div>
                             <div class="account">
                                 <a href="./login.html">
@@ -117,30 +117,85 @@
             </div>
             <div class="shopping-cart">
                 <div class="shopping-cart-left">
-                    <h2 class="cart-title">Review Item Anh Shipping</h2>
-                    <div class="cart-item">
-                        <div class="cart-img">
-                            <img src="/img/611+AIM1LNL.SS700.png" alt="">
-                            <div class="cart-name">
-                                <h3 class="name-title">Airpod - Max</h3>
-                                <span>Color: Pink</span>
+                    <div class="left-top">
+                        <h2 class="cart-title">Review Item Anh Shipping</h2>
+                        <div class="cart-item">
+                            <div class="cart-img">
+                                <img src="/img/611+AIM1LNL.SS700.png" alt="">
+                                <div class="cart-name">
+                                    <h3 class="name-title">Airpod - Max</h3>
+                                    <span>Color: Pink</span>
+                                </div>
+                            </div>
+                            <div class="cart-total">
+                                <h3 class="total-title">$549.00</h3>
+                                <span>Quantity: 01</span>
                             </div>
                         </div>
-                        <div class="cart-total">
-                            <h3 class="total-title">$549.00</h3>
-                            <span>Quantity: 01</span>
+                    </div>
+                    <div class="left-mid">
+                        <div class="checkbox-info">
+                            <input type="checkbox" class="checkbox" name="" id="checkbox">
+                            <label for="checkbox">Delivery Information</label>
                         </div>
+                    </div>
+                    <div class="left-bottom" id="left-bottom">
+                        <form action="">
+                            <div class="input-box">
+                                <label class="input-label">Họ và tên:</label>
+                                <input placeholder="Họ và tên của bạn" class="input-small" name="name" type="text">
+                                <span class="input-helper">Enter a valid name</span>
+                            </div>
+                            <div class="input-box">
+                                <label class="input-label">Số điện thoại:</label>
+                                <input placeholder="Số điện thoại của bạn" class="input-small" name="phone" type="text">
+                                <span class="input-helper">Enter a valid phone number</span>
+                            </div>
+                            <div class="input-select">
+                                <div class="selection">
+                                    <label class="input-label">Chọn Tỉnh / Thành phố:</label>
+                                    <select name="" id="" class="address">
+                                        <option value="#">Tỉnh / Thành phố</option>
+                                        <option value="1">An Giang</option>
+                                        <option value="2">Thành phố Hồ Chí Minh</option>
+                                        <option value="3">Thành Phố Hà Nội</option>
+                                    </select>
+                                </div>
+                                <div class="selection">
+                                    <label class="input-label">Chọn Quận / Huyện:</label>
+                                    <select name="" id="" class="address">
+                                        <option value="#">Quận / Huyện</option>
+                                        <option value="1">An Giang</option>
+                                        <option value="2">Thành phố Hồ Chí Minh</option>
+                                        <option value="3">Thành Phố Hà Nội</option>
+                                    </select>
+                                </div>
+                                <div class="selection">
+                                    <label class="input-label">Chọn Xã:</label>
+                                    <select name="" id="" class="address">
+                                        <option value="#">Xã</option>
+                                        <option value="1">...</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="input-box">
+                                <label class="input-label">Địa chỉ cụ thể:</label>
+                                <input placeholder="Địa chỉ cụ thể của bạn" class="input-small" name="address" type="text">
+                                <span class="input-helper">Enter a valid address</span>
+                            </div>
+                            
+                        </form>
                     </div>
                 </div>
                 <div class="shopping-cart-right">
                     <h2 class="cart-title">Payment Details</h2>
                     <div class="form">
-                        <input type="radio" id="option1" name="radio" value="Cash" checked>
-                        <label for="Cash">Cash on delivery</label><br>
-                        <input type="radio" id="option2" name="radio" value="Shop">
-                        <label for="Shop">Shopcart Card</label><br>
-                        <input type="radio" id="option3" name="radio" value="Paypal">
-                        <label for="Paypal">Paypal</label><br>
+                        <input type="radio" id="cash" name="radio" value="Cash" checked>
+                        <label for="cash">Cash on delivery</label><br>
+                        <input type="radio" id="shop" name="radio" value="Shop">
+                        <label for="shop">Shopcart Card</label><br>
+                        <input type="radio" id="paypal" name="radio" value="Paypal">
+                        <label for="paypal">Paypal</label><br>
                     </div>
                     <div class="cart-card">
                         <ul>
@@ -244,5 +299,7 @@
         </div>
     </div>
     <script src="/js/menu.js"></script>
+    <script src="/js/checkbox.js"></script>
 </body>
+
 </html>

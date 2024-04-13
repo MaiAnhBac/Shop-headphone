@@ -49,7 +49,9 @@
     .card .card-container {
         grid-template-columns: repeat(3, 1fr);
     }
-
+    .input-select {
+        gap: 20px;
+    }
     footer .footer-content {
         width: 100%;
         padding: 0 30px;
@@ -70,7 +72,11 @@
         display: none;
     }
 }
-
+@media only screen and (max-width: 1024px) {
+    .input-select {
+        grid-template-columns: repeat(2, 1fr);
+    }
+ }
 @media (max-width: 768px) {
     .card .card-container {
         grid-template-columns: repeat(2, 1fr);
@@ -163,5 +169,8 @@
     }
     .header-top .header-top-item .navbar {
         width: 13rem;
+    }
+    .input-select {
+        grid-template-columns: repeat(1, 1fr);
     }
 }
