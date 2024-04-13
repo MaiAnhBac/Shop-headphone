@@ -36,6 +36,9 @@
     display: none;
     transition: all 0.2s linear;
 }
+#left-bottom .cart-title {
+    margin-bottom: 20px;
+}
 .input-small {
     position: relative;
     padding: .75rem;
