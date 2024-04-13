@@ -109,8 +109,6 @@
     flex-direction: column;
 }
 .input-select .selection .address {
-    /* -webkit-appearance: none; */
-    appearance: none;
     padding: .75rem;
     transition: all 200ms ease-in-out;
     opacity: .8;
