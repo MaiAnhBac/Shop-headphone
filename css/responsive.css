@@ -52,6 +52,9 @@
     .input-select {
         gap: 20px;
     }
+    .input-select .selection .address {
+        appearance: none;
+    }
     footer .footer-content {
         width: 100%;
         padding: 0 30px;
@@ -172,8 +175,5 @@
     }
     .input-select {
         grid-template-columns: repeat(1, 1fr);
-    }
-    .input-select .selection .address {
-        padding-left: 25px;
     }
 }
