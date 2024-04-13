@@ -21,7 +21,7 @@
     padding: 20px;
 }
 .shopping-cart .shopping-cart-left .left-mid {
-    padding: 15px 0;
+    padding: 15px 0 0;
 }
 .shopping-cart .shopping-cart-left .left-mid .checkbox-info {
     display: flex;
@@ -35,6 +35,7 @@
 #left-bottom {
     display: none;
     transition: all 0.2s linear;
+    margin-top: 20px;
 }
 #left-bottom .cart-title {
     margin-bottom: 20px;
