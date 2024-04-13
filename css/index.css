@@ -217,6 +217,7 @@ nav img {
     border-radius: 10px;
     background: #f4f2f2;
     border: 1px solid #f4f2f2;
+    height: 40px;
 }
 .menu .filter .filter-1 select:focus, .sort-by .filter-1 select:focus {
     outline: none;

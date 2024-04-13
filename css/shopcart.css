@@ -110,6 +110,7 @@
     flex-direction: column;
 }
 .input-select .selection .address {
+    height: 40px;
     padding: .75rem;
     transition: all 200ms ease-in-out;
     opacity: .8;
