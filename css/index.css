@@ -87,6 +87,9 @@ header {
 .header-top .header-top-item .navbar .navbar-menu .navbar-menu-1 ul li.border-bt {
     border-bottom: 1px solid #dddddd;
 }
+.header-top .header-top-item .navbar .navbar-menu .navbar-menu-1 ul li.border-bt:last-child {
+    border-bottom: 0;
+}
 .header-top .header-top-item .navbar .navbar-menu .navbar-menu-1 ul li .menu-header {
     font-weight: bold;
     font-size: 17px;
@@ -98,10 +101,10 @@ header {
     visibility: visible;
     opacity: 1;
 }
-.header-top .header-top-item .navbar ul .navbar-hidden:hover a .fa-chevron-down::before {
+/* .header-top .header-top-item .navbar ul .navbar-hidden:hover a .fa-chevron-down::before {
     content: "\f077";
     transition: all 0.2s linear;
-}
+} */
 .header-top .header-top-item .navbar ul .navbar-hidden:hover .navbar-menu::before {
     content: "";
     position: absolute;
