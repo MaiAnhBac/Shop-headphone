@@ -37,7 +37,7 @@ document.addEventListener("DOMContentLoaded", () => {
         try {
             const res = await fetch("https://script.googleusercontent.com/macros/echo?user_content_key=KvurPRap7R2JyuFtOT-zPrAIrMuDcq6EtKEPw1sglg8W4dHZ9m6KERZUBSFSnOiQBL_p0L4MV5RTZNY3qem4BG-EozTV8PNPm5_BxDlH2jW0nuo2oDemN9CCS2h10ox_1xSncGQajx_ryfhECjZEnHJpApT9quWsMlLZohY6NeOIHzRAZ9AYB3lKeos5nCiiD2iw9FIXM3CdBaNJHClIj0jB0lSrm5rtrJuiMUBB3PvRoCDDEEbDhQ&lib=MIVZSHaPj63vRYciA67dPQV25xvplq3UH")
             const data_res = await res.json();
-            
+
             const user = data_res.find(user => user.email === email && user.password == password)
             if (user) {
                 alert('Đăng nhập thành công!');
@@ -49,7 +49,6 @@ document.addEventListener("DOMContentLoaded", () => {
             console.error('There was a problem with your fetch operation:', error);
         }
     }
-    
-});
 
+});
 
