@@ -235,7 +235,22 @@ nav img {
 }
 .card .card-container .card-item {
     margin: 10px 0;
-    
+}
+.card .card-container .card-item .card-top  {
+    position: relative;
+}
+.card .card-container .card-item .card-top::after {
+    width: 40px;
+    height: 20px;
+    background: red;
+    position: absolute;
+    content: "New";
+    font-size: 12px;
+    text-align: center;
+    color: white;
+    top: 5px;
+    left: 5px;
+    border-radius: 3px;
 }
 .card .card-container .card-item .card-top img {
     max-width: 100%;

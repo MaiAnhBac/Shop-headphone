@@ -38,7 +38,6 @@ document.addEventListener("DOMContentLoaded", () => {
         const districts = data.district;
         const communes = data.commune
         populateSelect(provinceSelect, provinces);
-
         provinceSelect.addEventListener("change", () => {
             const selectedProvinceId = provinceSelect.value;
             populateDistrictSelect(selectedProvinceId, districts);
