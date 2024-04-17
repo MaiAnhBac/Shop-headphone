@@ -231,10 +231,16 @@ nav img {
 .card .card-container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 20px; 
+    gap: 30px; 
 }
 .card .card-container .card-item {
     margin: 10px 0;
+}
+.card .card-container .card-item:hover {
+    transition: all 0.5s ease-out 0s;
+    margin: -20px;
+    padding: 20px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 .card .card-container .card-item .card-top  {
     position: relative;
@@ -258,11 +264,12 @@ nav img {
     background: #f4f2f2;
     border-radius: 5px;
     cursor: pointer;
+    padding: 20px;
 }
-.card .card-container .card-item .card-top img:hover {
+/* .card .card-container .card-item .card-top img:hover {
     transform: scale(1.05);
     animation: all 0.2 ease;
-}
+} */
 .card .card-container .card-item .card-bottom {
     padding: 10px 0;
 }
