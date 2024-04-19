@@ -20,6 +20,7 @@ header {
     top: 0;
     z-index: 1;
     background: #fff;
+    box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
 }
 .header-top .header-top-item {
     display: flex;
@@ -32,7 +33,7 @@ header {
 }
 .header-top .header-top-item .navbar {
     padding: 10px 20px;
-    font-weight: 600;
+    font-weight: 400;
 }
 .header-top .header-top-item .navbar ul {
     display: flex;
@@ -73,6 +74,8 @@ header {
     display: flex;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
     border-radius: 6px;
+    transform: scaleY(0);
+    transform-origin: top center;
 }
 .header-top .header-top-item .navbar .navbar-menu .navbar-menu-1 ul {
     display: flex;
@@ -100,6 +103,7 @@ header {
 .header-top .header-top-item .navbar ul .navbar-hidden:hover .navbar-menu {
     visibility: visible;
     opacity: 1;
+    transform: scaleY(1);
 }
 /* .header-top .header-top-item .navbar ul .navbar-hidden:hover a .fa-chevron-down::before {
     content: "\f077";
