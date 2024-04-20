@@ -26,6 +26,7 @@
     padding: 10px;
     cursor: pointer;
     background: #f4f2f2;
+    color: black;
 }
 .icon-btn .fa-grip, .fa-bars {
     font-size: 20px;
@@ -34,6 +35,8 @@
     padding: 10px;
     background: #f4f2f2;
     border: none;
+    border-radius: 0;
+    color: black;
 }
 #filter:focus {
     outline: none;

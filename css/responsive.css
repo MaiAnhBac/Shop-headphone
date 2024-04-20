@@ -151,6 +151,7 @@
 @media (max-width: 600px) {
     .card-img {
         grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
     }
     .top-content {
         flex-wrap: wrap;
