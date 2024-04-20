@@ -55,6 +55,9 @@
     .input-select .selection .address {
         appearance: none;
     }
+    .card-img {
+        grid-template-columns: repeat(3, 1fr);
+    }
     footer .footer-content {
         width: 100%;
         padding: 0 30px;
@@ -79,6 +82,15 @@
     .input-select {
         grid-template-columns: repeat(2, 1fr);
     }
+    .container-mid {
+        flex-direction: column;
+    }
+    .mid-content-left {
+        width: 100%;
+    }
+    .mid-content-right {
+        width: 100%;
+    }
  }
 @media (max-width: 768px) {
     .card .card-container {
@@ -100,7 +112,7 @@
     }
 
     .breadcrumbs {
-        padding: 0 30px;
+        padding: 10px 30px;
         animation: padding .2s linear;
     }
 
@@ -136,7 +148,15 @@
     }
 
 }
-
+@media (max-width: 600px) {
+    .card-img {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .top-content {
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+ }
 @media (max-width: 480px) {
     .card .card-container {
         grid-template-columns: repeat(2, 1fr);
