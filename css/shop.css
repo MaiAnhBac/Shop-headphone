@@ -84,6 +84,7 @@
     list-style: disc !important;
     margin-left: 20px;
     cursor: pointer;
+    font-size: 14px;
 }
 .disc:hover {
     color: #f50963;
