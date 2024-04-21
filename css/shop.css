@@ -156,6 +156,34 @@
 .card-toggle {
 
 }
+.card-picture {
+    position: relative;
+}
+.card-picture .sale{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 10px;
+    display: flex;
+    flex-direction: column;;
+    gap: 5px;
+}
+.card-picture .sale .sale-xs {
+    width: 40px;
+    height: 20px;
+    font-size: 12px;
+    color: #fff;
+    text-align: center;
+    background: #f50963;
+}
+.card-picture .sale .sale-xspt {
+    width: 40px;
+    height: 20px;
+    font-size: 12px;
+    color: #fff;
+    text-align: center;
+    background: #000;
+}
 .card-title {
 
 }
