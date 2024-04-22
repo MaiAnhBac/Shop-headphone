@@ -210,10 +210,12 @@
 }
 .card-title .bottom-2 .addtocart {
     border: 1px solid #003d29;
-    padding: 10px 20px;
-    border-radius: 30px;
+    padding: 8px 20px;
     text-decoration: none;
     color: black;
+    display: block;
+    width: 100%;
+    text-align: center;
 }
 .card-title .bottom-2 .addtocart:hover {
     background: #003d29;
