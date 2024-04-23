@@ -198,7 +198,7 @@ header {
 }
 .header-top .header-top-item .right .cart .fa-cart-plus::after {
     position: absolute;
-    content: "0";
+    content: "1";
     top: -5px;
     right: -5px;
     width: 15px;
