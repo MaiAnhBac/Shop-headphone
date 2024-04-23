@@ -193,6 +193,23 @@ header {
     margin-top: 1px;
     margin-left: 2px;
 }
+.header-top .header-top-item .right .cart .fa-cart-plus {
+    position: relative;
+}
+.header-top .header-top-item .right .cart .fa-cart-plus::after {
+    position: absolute;
+    content: "0";
+    top: -5px;
+    right: -5px;
+    width: 15px;
+    height: 15px;
+    background: #f50963;
+    color: #fff;
+    font-size: 10px;
+    line-height: 1.5;
+    text-align: center;
+    border-radius: 50%;
+}
 .fa-xmark {
     font-size: 24px;
 }
