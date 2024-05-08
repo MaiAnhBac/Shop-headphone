@@ -58,6 +58,9 @@
     .card-img {
         grid-template-columns: repeat(3, 1fr);
     }
+    .card-title .bottom-1 .bottom-title {
+        -webkit-line-clamp: 2;
+    }
     footer .footer-content {
         width: 100%;
         padding: 0 30px;
