@@ -219,6 +219,28 @@
 .card-title .bottom-2 .rating i {
     color: #08ac0a;
 }
+.card-title .bottom-2 .option-swath {
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.card-title .bottom-2 .option-swath .swath-color {
+    position: relative;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    overflow: hidden;
+    background: #f4f2f2;
+    cursor: pointer;
+    margin-right: 10px;
+}
+.card-title .bottom-2 .option-swath .swath-color img {
+    width: 100%;
+    object-fit: cover;
+}
+.card-title .bottom-2 .option-swath .swath-color.active {
+    border: 2px solid #fcaf17;
+}
 .card-title .bottom-2 .addtocart {
     border: 1px solid #003d29;
     padding: 8px 20px;

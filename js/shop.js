@@ -13,3 +13,14 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     });
 });
+
+
+let listSwathColor = document.querySelectorAll('.swath-color')
+listSwathColor.forEach(item => {
+    item.addEventListener("click", (e) => {
+        item.closest(".option-swath").querySelector(".swath-color.active").classList.remove("active")
+        item.classList.add("active")
+        let imageProduct = item.closest(".card-toggle").querySelector(".card-picture img")
+        imageProduct.src = e.target.src
+    })
+})
