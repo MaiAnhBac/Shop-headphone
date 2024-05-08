@@ -188,17 +188,19 @@
 
 }
 .card-title .bottom-1 {
-    display: flex;
+    /* display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: center; */
 }
-.card-title .bottom-2 span {
-    display: -webkit-box;
-    -webkit-line-clamp: 1;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    word-break: break-word;
+.card-title .bottom-2 .box-price .discout-price {
+    color: #CD151C;
+    font-weight: 600;
+}
+.card-title .bottom-2 .box-price .compare-price {
+    text-decoration: line-through;
+    font-size: 13px;
+    color: #8A8A8F;
+    padding-left: 10px;
 }
 .card-title .bottom-2 .rating {
     margin: 10px 0 20px 0;
