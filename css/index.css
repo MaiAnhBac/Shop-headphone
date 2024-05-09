@@ -9,17 +9,25 @@
 .shop-cart {
     width: 100%;
     font-family: "Poppins", sans-serif;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+}
+main {
     display: flex;
     justify-content: center;
 }
 .shop-cart-container {
     width: 1700px;
 }
-header {
-    position: sticky;
-    top: 0;
-    z-index: 1;
-    background: #fff;
+.header-top {
+    width: 1700px;
 }
 .header-top .header-top-item {
     display: flex;
