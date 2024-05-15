@@ -55,6 +55,7 @@ main {
     font-size: 1.1rem;
     margin: 0 1rem;
     position: relative;
+    font-weight: 600;
 }
 .header-top .header-top-item .navbar a::after {
     content: "";
