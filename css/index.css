@@ -228,8 +228,14 @@ main {
 nav {
     width: 100%;
 }
+.nav-2 {
+    margin-top: 30px;
+}
 nav img {
     width: 100%;
+    max-height: 500px;
+    height: auto;
+    object-fit: cover;
 }
 .menu {
     display: flex;
@@ -271,8 +277,8 @@ nav img {
 }
 .card .card-container .card-item:hover {
     transition: all 0.5s ease-out 0s;
-    margin: -20px;
-    padding: 20px;
+    margin: -10px -10px 0 -10px;;
+    padding: 20px 20px 0px 20px;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 .card .card-container .card-item .card-top  {
@@ -346,6 +352,73 @@ nav img {
 .card .card-container .card-item .addtocart:hover {
     background: #003d29;
     color: #fff;
+}
+.card .view-all-product {
+    text-align: center;
+    padding: 30px 0 0 0;
+}
+.card .view-all-product .view-all-product-headphone {
+    background: #db4444;
+    padding: 15px 40px;
+    font-size: 15px;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    font-family: "Poppins", sans-serif;
+    cursor: pointer;
+}
+.featured .featured-img {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+}
+.featured .featured-img .box {
+    border: 1px solid;
+}
+.featured .featured-img .box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.featured .featured-img .feature-img-1 {
+    grid-column: span 2;
+    grid-row: span 2;
+}
+.featured .featured-img .feature-img-2 {
+    grid-column: span 2;
+}
+.delivery-info {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0 20px;
+}
+.delivery-info .delivery-item .delivery-icon {
+    display: flex;
+    justify-content: center;
+}
+.delivery-info .delivery-item .delivery-icon-xs {
+    width: 80px;
+    height: 80px;
+    border: 10px solid #f4f2f2;
+    display: block;
+    border-radius: 50%;
+}
+.delivery-info .delivery-item .delivery-icon-xs i {
+    color: #fff;
+    line-height: 3;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    background: black;
+    border-radius: 50%;
+}
+.delivery-info .delivery-item .delivery-title {
+   text-align: center;
+   margin-top: 10px;
 }
 footer {
     width: 100%;
