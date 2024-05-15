@@ -175,6 +175,7 @@
     background: #f0f0f0;
     border: none;
     color: #161616;
+    border-radius: 0;
 }
 .shopping-cart .shopping-cart-left .cart-item .cart-total .crease .value:focus {
     outline: none;
