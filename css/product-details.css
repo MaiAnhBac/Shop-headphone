@@ -2,6 +2,13 @@
     text-decoration: none;
     color: #8f8b8b;
 }
+.breadcrumbs {
+    padding: 20px 10px 10px;
+} 
+.breadcrumbs .link-details {
+    color: #CD151C;
+    font-weight: 500;
+}
 .cart-col {
     display: grid;
     grid-template-columns: repeat(2, 1fr);

@@ -1,15 +1,19 @@
 .breadcrumbs {
-    padding: 10px;
+    padding: 20px 10px 10px;
 } 
 .breadcrumbs a {
     text-decoration: none;
     color: #8f8b8b;
 }
+.breadcrumbs .link-checkout {
+    color: #CD151C;
+    font-weight: 500;
+}
 .shopping-cart{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 30px;
-    margin: 30px 10px;
+    margin: 20px 10px;
 }
 .shopping-cart .shopping-cart-left {
     grid-column: span 2;

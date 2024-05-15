@@ -18,6 +18,7 @@ header {
     background: #fff;
     display: flex;
     justify-content: center;
+    border-bottom: 1px solid #f4f2f2;
 }
 main {
     display: flex;
@@ -264,6 +265,8 @@ nav img {
 }
 .card .card-container .card-item {
     margin: 10px 0;
+    border: 1px solid #f4f2f2;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 0px 2px 0px;
 }
 .card .card-container .card-item:hover {
     transition: all 0.5s ease-out 0s;
@@ -298,23 +301,30 @@ nav img {
     animation: all 0.2 ease;
 } */
 .card .card-container .card-item .card-bottom {
-    padding: 10px 0;
+    padding: 0px 12px 15px;
 }
 .card .card-container .card-item .card-bottom .bottom-1 {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 10px 0 0;
+
+}
+.card-bottom .bottom-2 .box-price .discout-price {
+    color: #CD151C;
+    font-weight: 600;
+}
+.card-bottom .bottom-2 .box-price .compare-price {
+    text-decoration: line-through;
+    font-size: 11px;
+    color: #8A8A8F;
+    padding-left: 10px;
 }
 /* ẩn title quá dài */
-.card .card-container .card-item .card-bottom .bottom-2 span {
+/* .card .card-container .card-item .card-bottom .bottom-2 span {
     display: -webkit-box;
     -webkit-line-clamp: 1;
     -webkit-box-orient: vertical;
     overflow: hidden;
     text-overflow: ellipsis;
     word-break: break-word;
-}
+} */
 .card .card-container .card-item .card-bottom .bottom-2 .rating {
     margin: 10px 0 20px 0;
     display: flex;

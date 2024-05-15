@@ -110,15 +110,8 @@
     }
     .shopping-cart {
         grid-template-columns: repeat(1, 1fr);
-        padding: 0 9px;
         gap: 20px 0;
     }
-
-    .breadcrumbs {
-        padding: 10px 30px;
-        animation: padding .2s linear;
-    }
-
     .cart-col .cart-item {
         padding: 0 50px;
     }
