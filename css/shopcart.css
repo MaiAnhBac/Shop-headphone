@@ -152,6 +152,33 @@
 .shopping-cart .shopping-cart-left .cart-item .cart-total span {
     font-size: clamp(14px, 2vw, 18px);
 }
+.shopping-cart .shopping-cart-left .cart-item .cart-total .crease {
+    display: flex;
+}
+.shopping-cart .shopping-cart-left .cart-item .cart-total .crease button {
+    padding: 5px 12px;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+    color: #161616;
+    text-align: center;
+}
+.shopping-cart .shopping-cart-left .cart-item .cart-total .crease .decrease {
+    border-radius: 25px 0 0 25px;
+}
+.shopping-cart .shopping-cart-left .cart-item .cart-total .crease .increase {
+    border-radius: 0 25px 25px 0;
+}
+.shopping-cart .shopping-cart-left .cart-item .cart-total .crease .value {
+    width: 40px;
+    text-align: center;
+    background: #f0f0f0;
+    border: none;
+    color: #161616;
+}
+.shopping-cart .shopping-cart-left .cart-item .cart-total .crease .value:focus {
+    outline: none;
+}
 .shopping-cart .shopping-cart-right {
     border: 3px solid #f4f2f2;
     border-radius: 7px;

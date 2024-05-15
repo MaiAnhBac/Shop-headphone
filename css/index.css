@@ -34,6 +34,7 @@ main {
     justify-content: space-between;
     align-items: center;
     padding: 0 15px 0 5px;
+    height: 100px;
 }
 .header-top .header-top-item .logo img {
     width: 100px;
