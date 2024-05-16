@@ -348,6 +348,7 @@ nav img {
     display: block;
     width: 100%;
     text-align: center;
+    border-radius: 10px;
 }
 .card .card-container .card-item .addtocart:hover {
     background: #003d29;
