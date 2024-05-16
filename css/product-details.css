@@ -26,7 +26,7 @@
     padding: 0 70px;
 }
 .cart-col .cart-item h2 {
-    font-size: clamp(12px, 4vw, 42px);
+    font-size: clamp(12px, 5vw, 42px);
 }
 .cart-col .cart-item .perfect {
     padding: 20px 0;
@@ -41,6 +41,7 @@
 .cart-col .cart-item .money {
     font-size: clamp(12px, 4vw, 32px);
     font-weight: 600;
+    margin-top: 10px;
 }
 .cart-col .cart-item .title-payment {
     border-bottom: 1px solid #b8b6b6;
