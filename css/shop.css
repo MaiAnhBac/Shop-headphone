@@ -228,6 +228,7 @@
 }
 .card-title {
     padding: 0px 12px 15px;
+    background-color: #fff;
 }
 .card-title .bottom-1 {
     /* display: flex;

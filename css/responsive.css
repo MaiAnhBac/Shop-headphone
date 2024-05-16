@@ -171,6 +171,9 @@
     .card-title .bottom-1 {
         font-size: 13px;
     }
+    .card-bottom .bottom-2 .addtocart {
+        font-size: 11px;
+    }
     .search {
         display: none;
     } 
