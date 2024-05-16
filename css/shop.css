@@ -228,12 +228,6 @@
 }
 .card-title {
     padding: 0px 12px 15px;
-    background-color: #fff;
-}
-.card-title .bottom-1 {
-    /* display: flex;
-    justify-content: space-between;
-    align-items: center; */
 }
 /* ẩn dòng có chữ quá dài thành dấu ...... */
 .card-title .bottom-1 .bottom-title {
