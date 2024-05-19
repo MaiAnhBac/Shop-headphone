@@ -267,7 +267,7 @@ nav img {
 }
 .card .card-container {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(5, 1fr);
     gap: 30px; 
 }
 .card .card-container .card-item {
@@ -390,7 +390,7 @@ nav img {
 }
 .delivery-info {
     margin-top: 30px;
-    margin-bottom: 30px;
+    margin-bottom: 100px;
     display: flex;
     justify-content: space-around;
     align-items: center;
