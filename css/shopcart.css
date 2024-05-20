@@ -167,6 +167,9 @@
     color: #161616;
     text-align: center;
 }
+.shopping-cart .shopping-cart-left .cart-item .cart-total .crease button:focus {
+    outline: none;
+}
 .shopping-cart .shopping-cart-left .cart-item .cart-total .crease .decrease {
     border-radius: 25px 0 0 25px;
 }
