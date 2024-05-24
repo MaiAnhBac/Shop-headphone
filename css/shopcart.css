@@ -142,6 +142,9 @@
     padding: 10px;
     border-radius: 16px;
 }
+.shopping-cart .shopping-cart-left .cart-item .cart-total {
+    text-align: center;
+}
 .shopping-cart .shopping-cart-left .cart-item .cart-img .cart-name .name-title {
     padding: 10px 0;
     font-size: clamp(14px, 3vw, 25px);
