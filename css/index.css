@@ -34,7 +34,7 @@ main {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 15px 0 5px;
+    padding: 0 5px 0 5px;
     height: 100px;
 }
 .header-top .header-top-item .logo img {
@@ -198,12 +198,78 @@ main {
     display: flex;
     justify-content: center;
 }
-.header-top .header-top-item .right .account i, .cart i {
+.header-top .header-top-item .right .account-on {
+    position: relative;
+}
+.header-top .header-top-item .right .account-on .account-on-a {
+    color: black;
+    padding: 12px;
+    cursor: pointer;
+    width: 100%;
+    height: 3rem;
+    background: #f4f2f2;
+    border-radius: 0.7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header-top .header-top-item .right .account-on .account-on-a .name-on {
+    margin-left: 10px;
+}
+.header-top .header-top-item .right .account-on .account-on-a .img-on {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.header-top .header-top-item .right .account-on .list_profile {
+    position: absolute;
+    width: 100%;
+    top: 130%;
+    z-index: 1;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+    border-radius: 0.5rem;
+    background: #fff;
+    padding: 10px;
+    visibility: hidden;
+    opacity: 0;
+    transform: scaleY(0);
+    transform-origin: top center;
+}
+.header-top .header-top-item .right .account-on:hover .list_profile {
+    visibility: visible;
+    opacity: 1;
+    transform: scaleY(1)
+}
+.header-top .header-top-item .right .account-on .list_profile ul {
+    display: flex;
+    row-gap: 10px;
+    flex-direction: column;
+}
+.header-top .header-top-item .right .account-on .list_profile .item_profile {
+    list-style: none;
+    padding: 10px 0;
+    background: #f4f2f2;
+    border-radius: 0.25rem;
+}
+.header-top .header-top-item .right .account-on .list_profile .item_profile a {
+    margin-left: 10px;
+    color: #0d0c22;
+    width: 100%;
+    display: block;
+    font-weight: 600;
+}
+.header-top .header-top-item .right .account-on .account-on-a i {
+    margin-left: 5px;
+    font-size: 12px;
+}
+.header-top .header-top-item .right .account-on i, .account i, .cart i {
     font-size: 20px;
     line-height: 1.5rem;
     margin-top: 1px;
     margin-left: 2px;
 }
+
 .header-top .header-top-item .right .cart .fa-cart-plus {
     position: relative;
 }

@@ -210,4 +210,7 @@
     .card-title .bottom-2 .addtocart {
         font-size: 11px;
     }
+    .header-top .header-top-item .active {
+        right: 4rem;
+    }
 }
