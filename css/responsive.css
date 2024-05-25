@@ -99,6 +99,15 @@
         flex-wrap: wrap;
         gap: 20px;
     }
+    .cart-col {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .cart-col .cart-title {
+        grid-column: span 1;
+    }
+    .cart-col .cart-img img {
+        width: 47vw;
+    }
  }
 @media (max-width: 768px) {
     .card .card-container {
@@ -125,7 +134,6 @@
     }
     .cart-col .cart-title {
         padding: 0 25px;
-        grid-column: span 1;
     }
     .featured .featured-img {
         grid-template-columns: repeat(2, 1fr);
