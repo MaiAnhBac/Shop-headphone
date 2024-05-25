@@ -115,21 +115,6 @@ main {
     opacity: 1;
     transform: scaleY(1);
 }
-/* .header-top .header-top-item .navbar ul .navbar-hidden:hover a .fa-chevron-down::before {
-    content: "\f077";
-    transition: all 0.2s linear;
-} */
-.header-top .header-top-item .navbar ul .navbar-hidden:hover .navbar-menu::before {
-    content: "";
-    position: absolute;
-    top: -20px;
-    left: 20px;
-    border-top: 10px solid transparent;
-    border-left: 10px solid transparent;
-    border-right: 10px solid transparent;
-    border-bottom: 10px solid black;
-    background: none;
-}
 .search {
     display: flex;
     line-height: 28px;
@@ -227,7 +212,7 @@ main {
     width: 100%;
     top: 130%;
     z-index: 1;
-    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
     border-radius: 0.5rem;
     background: #fff;
     padding: 10px;
