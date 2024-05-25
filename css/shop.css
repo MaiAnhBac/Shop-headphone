@@ -157,9 +157,10 @@
     font-weight: 600;
   }
   .reset .reset-filter:hover {
-    background: blue;
-    border: 1px solid blue;
+    background: #003d29;
+    border: 1px solid #003d29;
   }
+
 .mid-content-right {
 
 }
