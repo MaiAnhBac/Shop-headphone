@@ -55,6 +55,7 @@
     font-size: 22px;
     border: none;
     cursor: pointer;
+    color: #161616;
 }
 .cart-col .cart-item .crease .decrease {
     border-radius: 25px 0 0 25px ;
