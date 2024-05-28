@@ -1,18 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="/img/logo-ga.ico" type="image/x-icon">
-    <title>Product Details</title>
+    <title>Contact Us</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <link rel="stylesheet" href="/css/index.css">
-    <link rel="stylesheet" href="/css/product-details.css">
     <link rel="stylesheet" href="/css/responsive.css">
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="/css/contact-us.css">
 </head>
-
 <body>
     <div class="shop-cart">
         <header>
@@ -33,7 +30,7 @@
                                 <a href="./shop.html">Shop</a>
                             </li>
                             <li class="navbar-hidden">
-                                <a href="#">Page <i class="fas fa-chevron-down"></i></a>
+                                <a href="#categories">Page <i class="fas fa-chevron-down"></i></a>
                                 <div class="navbar-menu">
                                     <div class="navbar-menu-1">
                                         <ul class="navbar-menu-ul">
@@ -83,63 +80,24 @@
             </div>
         </header>
         <main>
-            <div class="shop-cart-container">
-                <div class="breadcrumbs">
-                    <a href="/index.html"><i class="fa-solid fa-house-chimney"></i> Home</a> / <a href="" class="link-details">Details</a>
+            <div class="contact-us">
+                <div class="contact_us_img">
+                    <h2 class="contact_us_h2">Contact Us</h2>
+                    <div class="img_us">
+                        <img src="../img/contact-us.svg" alt="" class="img-contact">
+                    </div>
                 </div>
-                <div class="cart-col">
-                    <div class="cart-item cart-img">
-                        <img src="/img/611+AIM1LNL.SS700.png" id="img-brg" alt="">
-                    </div>
-                    <div class="cart-item cart-title">
-                        <h2>Airpod - Max</h2>
-                        <p class="perfect">Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday</p>
-                        <div class="rating">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <span>(121)</span>
-                        </div>
-                        <p class="money">250.000đ or 500.000đ</p>
-                        <div class="choose-color">
-                            <h3 class="choose">Choose a colors</h3>
-                            <div class="color">
-                                <input type="radio" id="option1" name="radio" checked>
-                                <input type="radio" id="option2" name="radio">
-                                <input type="radio" id="option3" name="radio">
-                                <input type="radio" id="option4" name="radio">
-                                <input type="radio" id="option5" name="radio">
-                            </div>
-                        </div>
-                        <div class="choose-color">
-                            <h3 class="choose">Choose a size</h3>
-                            <div class="color">
-                                <span class="size">X-Small</span>
-                                <span class="size">Small</span>
-                                <span class="size">Medium</span>
-                                <span class="size">Large</span>
-                                <span class="size">X-Large</span>
-                                
-                            </div>
-                        </div>
-                        <div class="crease">
-                            <button class="decrease">-</button>
-                            <input type="text" class="value" value="1">
-                            <button class="increase">+</button>
-                        </div>
-                        <div class="btn">
-                            <a href="" class="buy-now">Buy Now</a>
-                            <a href="" class="add-to-cart">Add to cart</a>
-                        </div>
-                    </div>
+                <div class="contact_us_information">
+                    <form action="">
+                        <input type="text" name="" id="" class="us_input us_name" placeholder="Name">
+                        <input type="text" name="" id="" class="us_input us_email" placeholder="Email">
+                        <textarea name="" id="" class="us_input us_message" placeholder="Message..."></textarea>
+                        <button type="submit" class="btn_us_submit">Submit <i class="fa-solid fa-check-double"></i></button>
+                    </form>
                 </div>
             </div>
         </main>
     </div>
-    <script src="/js/script.js"></script>
     <script src="/js/menu.js"></script>
 </body>
-
 </html>

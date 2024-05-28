@@ -1,0 +1,58 @@
+.contact-us {
+    display: flex;
+    width: 1700px;
+    padding-top: 30px;
+    padding-right: 10px;
+}
+.contact_us_img {
+    flex: 1 1 50%;
+}
+.contact_us_h2 {
+    text-align: center;
+    font-size: 50px;
+}
+.img_us {
+    max-width: 700px;
+    max-height: 700px;
+    width: auto;
+    height: auto;
+    margin: 0 auto;
+}
+.img-contact {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.contact_us_information {
+    flex: 1 1 50%;
+    padding-top: 50px;
+}
+.us_input {
+    background: #f3f3f4;
+    border: none;
+    border-radius: 3px;
+    outline: none;
+    padding: 20px;
+    width: 100%;
+}
+.us_name, .us_email {
+    margin-bottom: 20px;
+    height: 60px;
+    font-size: 16px;
+}
+.us_message {
+    height: 370px;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+.btn_us_submit {
+    width: 100%;
+    background: #3258d3;
+    height: 60px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 5px;
+}

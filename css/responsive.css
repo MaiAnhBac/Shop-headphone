@@ -1,30 +1,5 @@
 @media only screen and (max-width: 1300px) {
-    .header-top .header-top-item .navbar {
-        display: none;
-        position: absolute;
-        top: 90%;
-        right: -110%;
-        width: 18rem;
-        box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);;
-        border-radius: 0.5rem;
-        background: #fff;
-        z-index: 1;
-    }
-    .header-top .header-top-item .active {
-        right: 2rem;
-        display: flex;
-    }
-    .header-top .header-top-item .navbar ul {
-        flex-direction: column;
-        margin: 10px 0;
-        row-gap: 10px;
-        width: 100%;
-    }
-    .header-top .header-top-item .navbar ul .navbar-hidden {
-        padding: 10px 0;
-        background: #f4f2f2;
-        border-radius: 0.25rem;
-    }
+
     .header-top .header-top-item .navbar a {
         margin: 1rem;
     }
@@ -61,18 +36,27 @@
     .featured .featured-img {
         padding: 0 20px;
     }
+    .about_us {
+        flex-direction: column;
+        padding: 10px !important;
+    }
+    .contact-us {
+        flex-direction: column;
+        padding: 20px !important;
+    }
+    .about_us_title {
+        width: 100% !important;
+    }
+    .about_us_information {
+        padding: 20px !important;
+    }
     footer .footer-content {
         width: 100%;
         padding: 0 30px;
     }
-
     .footer-end .footer-end-fix {
         flex-direction: column;
         width: auto;
-    }
-
-    .header-top .header-top-item .right #menu {
-        display: block;
     }
     .header-top .header-top-item .navbar a:hover:after {
         width: 100%;
@@ -82,6 +66,7 @@
     }
 }
 @media only screen and (max-width: 1024px) {
+   
     .input-select {
         grid-template-columns: repeat(2, 1fr);
     }
@@ -109,6 +94,38 @@
         width: 47vw;
     }
  }
+@media only screen and (max-width: 900px) {
+    /* ẩn hiện thanh điều hướng */
+    .header-top .header-top-item .navbar {
+        display: none;
+        position: absolute;
+        top: 90%;
+        right: -110%;
+        width: 18rem;
+        box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);;
+        border-radius: 0.5rem;
+        background: #fff;
+        z-index: 1;
+    }
+    .header-top .header-top-item .active {
+        right: 2rem;
+        display: flex;
+    }
+    .header-top .header-top-item .navbar ul {
+        flex-direction: column;
+        margin: 10px 0;
+        row-gap: 10px;
+        width: 100%;
+    }
+    .header-top .header-top-item .navbar ul .navbar-hidden {
+        padding: 10px 0;
+        background: #f4f2f2;
+        border-radius: 0.25rem;
+    }
+    .header-top .header-top-item .right #menu {
+        display: block;
+    }
+}
 @media (max-width: 768px) {
     .card .card-container {
         grid-template-columns: repeat(2, 1fr);
@@ -217,5 +234,8 @@
     }
     .header-top .header-top-item .active {
         right: 4rem;
+    }
+    .about_us_h2, .contact_us_h2 {
+        font-size: 40px !important;
     }
 }
