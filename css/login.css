@@ -201,10 +201,7 @@ body{
     margin-right: 5px;
 }
 .dont {
-    display: flex;
-    align-items: center;
-    font-size: 12px;
-    margin-right: 5px;
+    display: none;
 }
 .checkbox-me #label-remember {
     font-size: 12px;

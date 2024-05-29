@@ -16,6 +16,11 @@
     .sign-in-active {
         display: none;
     }
+    .dont {
+        display: flex;
+        align-items: center;
+        font-size: 12px;
+    }
     #signin, #create {
         display: block;
         padding: 10px 0;
