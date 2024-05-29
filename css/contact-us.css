@@ -10,6 +10,7 @@
 .contact_us_h2 {
     text-align: center;
     font-size: 50px;
+    color: #f50963;
 }
 .img_us {
     max-width: 700px;
@@ -47,7 +48,7 @@
 }
 .btn_us_submit {
     width: 100%;
-    background: #3258d3;
+    background: #003d29;
     height: 60px;
     border: none;
     color: #fff;

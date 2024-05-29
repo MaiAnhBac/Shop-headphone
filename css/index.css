@@ -86,6 +86,7 @@ main {
     border-radius: 6px;
     transform: scaleY(0);
     transform-origin: top center;
+    transition: transform ease .5s;
 }
 .header-top .header-top-item .navbar .navbar-menu .navbar-menu-1 ul {
     display: flex;
@@ -194,7 +195,6 @@ main {
 }
 .header-top .header-top-item .right .account-on .list_profile .item_profile {
     list-style: none;
-    padding: 10px 0;
     background: #f4f2f2;
     border-radius: 0.25rem;
 }
@@ -204,6 +204,10 @@ main {
     width: 100%;
     display: block;
     font-weight: 600;
+    padding: 10px 0;
+}
+.header-top .header-top-item .right .account-on .list_profile .item_profile a:hover {
+    color: #f50963;
 }
 .header-top .header-top-item .right .account-on .account-on-a i {
     margin-left: 5px;
@@ -299,7 +303,7 @@ nav img {
 .card .card-container .card-item .card-top::after {
     width: 40px;
     height: 20px;
-    background: red;
+    background: #f50963;
     position: absolute;
     content: "New";
     font-size: 12px;
@@ -371,7 +375,7 @@ nav img {
     padding: 30px 0 0 0;
 }
 .card .view-all-product .view-all-product-headphone {
-    background: #db4444;
+    background: #f50963;
     padding: 15px 40px;
     font-size: 15px;
     border: none;

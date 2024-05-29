@@ -1,15 +1,4 @@
 @media only screen and (max-width: 1300px) {
-
-    .header-top .header-top-item .navbar a {
-        margin: 1rem;
-    }
-    .header-top .header-top-item .navbar .navbar-menu {
-        left: -50%;
-        margin: 0 !important;
-    }
-    .header-top .header-top-item .navbar .navbar-menu .navbar-menu-ul {
-        margin: 0;
-    }
     .card .card-title {
         padding: 40px 0 20px 15px;
     }
@@ -126,6 +115,16 @@
     }
     .header-top .header-top-item .right #menu {
         display: block;
+    }
+    .header-top .header-top-item .navbar a {
+        margin: 1rem;
+    }
+    .header-top .header-top-item .navbar .navbar-menu {
+        left: -50%;
+        margin: 0 !important;
+    }
+    .header-top .header-top-item .navbar .navbar-menu .navbar-menu-ul {
+        margin: 0;
     }
 }
 @media (max-width: 768px) {
