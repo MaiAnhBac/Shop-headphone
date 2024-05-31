@@ -116,25 +116,6 @@
     padding: 12px 0px;
     font-weight: 300;
 }
-/* .cart-col .cart-item .choose-color input[type="radio"] {
-    width: 70px;
-    height: 50px;
-}
-.cart-col .cart-item .choose-color #option1{
-    accent-color: #e3544c;
-}
-.cart-col .cart-item .choose-color #option2{
-    accent-color: #292a27;
-}
-.cart-col .cart-item .choose-color #option3{
-    accent-color: #30751f;
-}
-.cart-col .cart-item .choose-color #option4{
-    accent-color: #3376b9;
-}
-.cart-col .cart-item .choose-color #option5{
-    accent-color: #b6087c;
-} */
 .cart-col .cart-item .choose-color .color {
     padding-top: 10px;
     display: flex;
